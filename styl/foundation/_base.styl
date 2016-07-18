@@ -1,0 +1,36 @@
+/*
+ * # Base
+ * HTML要素のプロジェクト固有スタイル指定
+ */
+
+html
+  box-sizing border-box
+
+*, *:before, *:after
+  box-sizing inherit
+
+body
+  background-color $white
+  color $black
+  font-size $font-size-m
+  font-family "Hiragino Kaku Gothic Pro", "Helvetica Neue", Helvetica, Arial, sans-serif
+  font-weight bold
+  word-wrap break-word
+  overflow-wrap break-word
+
+  // mobile
+  -webkit-text-size-adjust 100%
+  -webkit-tap-highlight-color rgba(0,0,0,0)
+  -webkit-touch-callout none
+  -webkit-overflow-scrolling touch
+
+h1, h2, h3, h4, h5, h6,
+input[type="text"], input[type="password"], textarea, select 
+  font-size 100%
+
+img
+  border none
+  vertical-align text-bottom
+
+a
+  text-decoration none

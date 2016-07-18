@@ -1,0 +1,14 @@
+{
+  "name": "MinimalCssAsset",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "stylus styl/cmn.styl -o dist/cmn.css"
+  },
+  "author": "ddorange55",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "stylus": "^0.54.5"
+  }
+}
