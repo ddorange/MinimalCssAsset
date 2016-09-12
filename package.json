@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "stylus styl/cmn.styl -o dist/cmn.css"
+    "build": "node_modules/stylus/bin/stylus styl/cmn.styl -o dist/cmn.css"
   },
   "author": "ddorange55",
   "license": "MIT",
